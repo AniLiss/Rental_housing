@@ -1,0 +1,32 @@
+.wrapper header .left_side .slogan {
+  letter-spacing: 0.14em;
+  line-height: 1.45em;
+  color: #4d4d4d;
+  padding-left: 0.8em;
+  margin: 0.17em 0 0 0.95em;
+  font: 0.7665em 'PT Sans Narrow', sans-serif;
+  font-weight: bold; }
+
+.wrapper header .right_side .header_btn {
+  margin-left: 0.85em; }
+
+.wrapper .partners h1 {
+  padding-right: 0.430em; }
+
+.wrapper .realty .item .image .title {
+  padding-left: 3vw; }
+
+.wrapper .realty .item .text {
+  padding-left: 3vw; }
+
+.btn {
+  font-size: 0.96em;
+  font-family: 'PT Sans', sans-serif; }
+
+.wrapper .feedback .box .feedback_btn {
+  padding: 0 2em;
+  font-size: 0.96em;
+  width: auto; }
+
+.wrapper footer {
+  margin-top: 3.957em; }
