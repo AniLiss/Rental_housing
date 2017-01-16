@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>АН МОСЖИЛАРЕНДА</title>
-		<meta name="viewport" content="initial-scale=1">
-		<meta name="viewport" content="width=device-width">
-		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-		<link rel="stylesheet" type="text/css" href="css/app.min.css">
-		<link rel="stylesheet" href="css/style.css">
-	<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/BF5AB7AF-2AAE-8B46-A514-61672E6432E4/main.js" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="http://gc.kis.v2.scr.kaspersky-labs.com/4E2346E27616-415A-64B8-EAA2-FA7BA5FB/abn/main.css"/></head>
+<head>
+	<meta charset="utf-8">
+	<title>АН МОСЖИЛАРЕНДА</title>
+	<meta name="viewport" content="initial-scale=1">
+	<meta name="viewport" content="width=device-width">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/app.min.css">
+	<!-- <script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/BF5AB7AF-2AAE-8B46-A514-61672E6432E4/main.js" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="http://gc.kis.v2.scr.kaspersky-labs.com/4E2346E27616-415A-64B8-EAA2-FA7BA5FB/abn/main.css"/></head> -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/style.css">
 	<body>
 		<div class="wrapper">
 			<header>
@@ -135,7 +136,6 @@
 				</div>
 			</section>
 			<section class="partners">
-				<h1>Арендаторы</h1>
 				<div class="box">
 					<div class="left_side">
 						<h3>Мы сотрудничаем:</h3>
@@ -143,22 +143,27 @@
 							Samsung, ING-банк, Мосжилкомплекс, Театр им. Вахтангова, Энергомаш, Электроника, ЦСКА, ПитерГаз, МКБ Факел, Кинофабрика, Билайн, Coca-Cola, ГУП Московское имущество, Ситроникс, Евросеть, Юнайтед Фосфорус Лимитед, СберТех, Exxonmobil Russia inc, FAE Group Spa и др.
 						</div>
 					</div>
-					<div class="image">
-						<img src="img/pics/hands_shake.png" alt="">
+					<div class="right_side">
+						<h1>Арендаторы</h1>
+						<div class="image">
+							<img src="img/pics/hands_shake.png" alt="">
+						</div>
 					</div>
 				</div>
 			</section>
-			<section class="feedback icon_top">
-				<div class="icon_block">
-					<img src="img/pics/info.svg" alt="">
-				</div>
-				<h1 class="">С радостью ответим на ваши вопросы!</h1>
-				<div class="box">
-					<div class="phone">
-						<a href="tel:+74957985035">+ 7 (495) 798-50-35</a>
+			<section class="feedback">
+				<div class="item icon_top">
+					<div class="icon_block">
+						<img src="img/pics/info.svg" alt="">
 					</div>
-					<div class="btn feedback_btn" id="request">Оставить заявку</div>
-					<div class="btn feedback_btn" id="callback">Экспресс-заказ</div>
+					<h1 class="">С радостью ответим на ваши вопросы!</h1>
+					<div class="box">
+						<div class="phone">
+							<a href="tel:+74957985035">+ 7 (495) 798-50-35</a>
+						</div>
+						<div class="btn feedback_btn" id="request">Оставить заявку</div>
+						<div class="btn feedback_btn" id="callback">Экспресс-заказ</div>
+					</div>
 				</div>
 			</section>
 			<footer>
@@ -186,33 +191,33 @@
 			</footer>
 		</div>
 		<div class="shadow_site"></div>
-			<div class="modal_contain">
-				<div class="modal_window">
-					<div class="head">
-						<h2>Экспресс-заказ</h2>
-						<div class="close"></div>
-					</div>
-					<div class="container">
-						<form>
-							<input type="text" placeholder="Ваше имя*">
-							<input type="text" placeholder="Ваш телефон*">
-							<input type="text" placeholder="Число комнат">
-							<input type="text" placeholder="Метро">
-							<textarea placeholder="Комментарии (необязательно, все вопросы можно обсудить со специалистом по вашему району)"></textarea>
-							<input type="submit" value="Отправить">
-							<input type="reset" value="Очистить">
-						</form>
-					</div>
+		<div class="modal_contain">
+			<div class="modal_window">
+				<div class="head">
+					<h2>Экспресс-заказ</h2>
+					<div class="close"></div>
+				</div>
+				<div class="container">
+					<form>
+						<input type="text" placeholder="Ваше имя*">
+						<input type="text" placeholder="Ваш телефон*">
+						<input type="text" placeholder="Число комнат">
+						<input type="text" placeholder="Метро">
+						<textarea placeholder="Комментарии (необязательно, все вопросы можно обсудить со специалистом по вашему району)"></textarea>
+						<input type="submit" value="Отправить">
+						<input type="reset" value="Очистить">
+					</form>
 				</div>
 			</div>
+		</div>
 
 		<script src="js/jquery-1.10.2.min.js"></script>
 		<script src="js/jquery.ba-outside-events.js"></script>
 		<script src="js/lazyload.js"></script>
 		<script src="js/plugins.js"></script>
-		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+		<!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script> -->
 		<script src="js/main.js"></script>
 
 
 	</body>
-</html>
+	</html>
