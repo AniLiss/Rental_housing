@@ -30,3 +30,103 @@
 
 .wrapper footer {
   margin-top: 3.957em; }
+
+.wrapper .partners .box {
+  margin-top: 60px; }
+
+.wrapper .partners .box .right_side {
+  margin-top: -60px;
+  text-align: center; }
+
+.wrapper .partners .box .right_side h1 {
+  margin-bottom: 20px;
+  padding-right: 0; }
+
+.wrapper .partners .box .image {
+  -ms-flex: 0 0 10.357em;
+      flex: 0 0 10.357em;
+  height: 10.357em; }
+
+.vacancies_list {
+  margin-bottom: 30px; }
+
+.wrapper .vacancies .container .right_side, .wrapper .module.base .right_side {
+  padding: 0;
+  background: none; }
+  .wrapper .vacancies .container .right_side .text, .wrapper .module.base .right_side .text {
+    padding: 1em;
+    background: #DBEEF4; }
+  .wrapper .vacancies .container .right_side .image, .wrapper .module.base .right_side .image {
+    background-color: #f0f;
+    width: 100%;
+    margin-top: 20px; }
+    .wrapper .vacancies .container .right_side .image img, .wrapper .module.base .right_side .image img {
+      max-width: 100%;
+      display: block; }
+
+.wrapper .contacts .container .box h2.phone:before {
+  top: auto;
+  bottom: 2px; }
+
+.wrapper .contacts .container .box h2.mail:before {
+  top: 5px; }
+
+.wrapper .contacts .container .box h2.address:before {
+  top: 2px; }
+
+.wrapper .module.base .right_side {
+  margin-top: -62px; }
+
+.animated {
+  animation-duration: 5s;
+  animation-fill-mode: none; }
+
+.wrapper .feedback, .wrapper .cost {
+  overflow: hidden; }
+
+.wrapper .module.third .head {
+  margin-bottom: 0.952em; }
+
+.wrapper .module.third .left_side {
+  width: 100%;
+  margin-right: 0;
+  height: 244px;
+  overflow: hidden; }
+  .wrapper .module.third .left_side .image {
+    width: 100%; }
+    .wrapper .module.third .left_side .image img {
+      width: 100%;
+      display: block; }
+
+.wrapper .feedback .icon_top {
+  padding-bottom: 2.143em; }
+
+.thanks-page.banner {
+  padding-left: 0; }
+
+.thanks-page .head {
+  font-size: 2.85em;
+  line-height: 1em;
+  margin-bottom: 0.5em;
+  color: #00985f; }
+
+.thanks-page .order {
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+  line-height: 1em;
+  padding: 0;
+  padding-top: 0;
+  text-align: center;
+  background: none; }
+
+.thanks-page .text {
+  text-align: center; }
+  .thanks-page .text p {
+    font-size: 21px; }
+
+.thanks-page__main-block {
+  max-width: 42em;
+  padding: 4em 3.6em;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgba(249, 249, 249, 0.9); }
